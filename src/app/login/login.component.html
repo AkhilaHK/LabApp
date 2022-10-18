@@ -1,0 +1,17 @@
+<br/>
+<label>UserName :</label>
+<input type="text" id="usertag" class="user" [(ngModel)]="user" placeholder="Enter your username">
+<br/>
+<br/>
+<label>Password :</label>
+<input type="password" id="passwordtag" class="password" [(ngModel)]="password" placeholder="Enter your password">
+<br/>
+<br/>
+<button class="buttontag" (click)="Login(statusDiv)">Login</button>
+<br/>
+<br/>
+<div style="text-align:center;" #statusDiv>
+{{status}}
+</div>
+
+

@@ -1,0 +1,35 @@
+<h1>{{title}}</h1>
+<body>
+    <style>
+        a{
+                font-size: x-large;
+                  margin-right: 5px;
+                  color:black;
+        }
+        span{
+            font-size:xx-large;
+            color:purple;
+        }
+        header, footer{
+            background-color: deepskyblue;
+              border-style: outset;
+                border-color: blue;
+                 padding: 10px;
+        }
+    </style>
+ 
+   <div class="divtag">
+    <header>
+            
+  <a routerLink="/login">Login</a><span>|</span>
+  
+  <a routerLink="/dash-board">DashBoard</a><span>|</span>
+</header>
+       </div>  
+    </body>   
+       
+   
+
+
+
+<router-outlet></router-outlet>
